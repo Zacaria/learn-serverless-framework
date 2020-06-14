@@ -1,0 +1,22 @@
+{
+  "name": "serverless-reminders",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.696.0"
+  },
+  "scripts": {
+    "deploy": "sls deploy",
+    "deploy:function": "sls deploy --function dailyReminder",
+    "remove": "sls remove",
+    "invoke": "sls invoke --function dailyReminder --log"
+  },
+  "keywords": [
+    "serverless",
+    "node",
+    "aws",
+    "cron",
+    "ses"
+  ]
+}
