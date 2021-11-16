@@ -4,7 +4,7 @@
   "main": "handler.js",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.696.0"
+    "aws-sdk": "^2.814.0"
   },
   "scripts": {
     "deploy": "sls deploy",
